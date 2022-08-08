@@ -25,6 +25,7 @@ from Logi import (
     StartTime,
     LOGGER,
     SUPPORT_CHAT,
+    PHOTO,
     SUPPORT_CHANNEL,
     WEBHOOK,
     CERT_PATH,
@@ -84,18 +85,22 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
-I have lots of handy features such as:
-‣ Warning system
-‣ Artificial intelligence
-‣ Flood control system
-‣ Note keeping system
-‣ Filters keeping system
-‣ Approvals and much more.
-
-So what are you waiting for?
-*Add me in your groups and give me full rights to make me function well.*
+PM_START_TEXT =f"[!]({PHOTO})" """
+ ──『ʜᴇʟʟᴏ  *{}*, ᴍʏ ɴᴀᴍᴇ ɪꜱ *{}*!  』
+*ʜᴇʟʟᴏ ʙᴜᴅᴅʏ❣️ !*
+✪ ɪ ᴀᴍ  sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴀɴᴅ ᴍᴜꜱɪᴄ  ᴘʟᴀʏᴇʀ . ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ 
+────────────────────────
+✪ ᴛʜɪs ɪs ᴀ ʙᴏᴛ ᴛᴏ play ᴍᴜsɪᴄ ᴀɴᴅ ᴠɪᴅᴇᴏ ɪɴ ɢʀᴏᴜᴘs, ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛs. \n
+✪ ɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴍ strᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ ꜰᴇᴀᴛᴜʀᴇꜱ. ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ ʟɪᴋᴇ ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ, ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n
+✪ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ \n
+✪ *ғɪʀsᴛ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ sǫʟ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴅᴀᴛᴀʙsᴀᴇ*
+────────────────────────
+✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ ✌️.
+✪ ʜɪᴛ /mhelp ᴛᴏ sᴇᴇ ᴍʏ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ ✌️.
+────────────────────────
+✪ Pᴏᴡᴇʀᴇᴅ Bʏ: [𝐋𝐆 𝐁𝐎𝐓𝐒 𝐒𝐎𝐂𝐈𝐄𝐓𝐘](https://t.me/Logi_channel)
+────────────────────────
+✪ ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 
 
