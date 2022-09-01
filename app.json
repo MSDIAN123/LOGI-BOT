@@ -1,5 +1,5 @@
 {
-    "name": "management+Music Bot",
+    "name": "The Sheild Robot",
     "description": "Telegram group management and Music Bot.",
     "keywords": [
        "telegram",
@@ -49,7 +49,7 @@
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": ""
+       "value": "5065752827"
     },
 
     "BOT_NAME": {
@@ -59,17 +59,17 @@
     },
     "OWNER_USERNAME": {
        "description": "Your username without the @",
-       "value": "CL_me_LOGESH"
+       "value": "AANDAVAR8064"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: Logi_channel. If this ever points to masha support than consider you made an enemy.",
        "required": true,
-       "value": "Logi_channel"
+       "value": "crazy_chatzz"
     },   
     "SUPPORT_CHANNEL": {
       "description": "Your Telegram support channel username where your users will go and bother you with shit But be like: Logi_channel. If this ever points to masha support than consider you made an enemy.",
       "required": true,
-      "value": "Logi_channel"
+      "value": "SHEILDSUPPORT"
    },        
     "PHOTO": {
        "description": "Your Telegram Bot Image (Add Link Only).",
