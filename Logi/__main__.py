@@ -98,7 +98,7 @@ PM_START_TEXT =f"[!]({PHOTO})" """
 ✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ ✌️.
 ✪ ʜɪᴛ /mhelp ᴛᴏ sᴇᴇ ᴍʏ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ ✌️.
 ────────────────────────
-✪ Pᴏᴡᴇʀᴇᴅ Bʏ: [𝐋𝐆 𝐁𝐎𝐓𝐒 𝐒𝐎𝐂𝐈𝐄𝐓𝐘](https://t.me/Logi_channel)
+✪ Pᴏᴡᴇʀᴇᴅ Bʏ: [ROY GANGS](https://t.me/crazy_chatzz)
 ────────────────────────
 ✪ ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
@@ -189,7 +189,7 @@ def start(update: Update, context: CallbackContext):
             ),            
             InlineKeyboardButton(
                 text="🦋 ʙᴏᴛ ɪɴꜰᴏ 🦋",
-                callback_data="Logi_",
+                callback_data="AANDAVAR",
             )
         ],        
         [
@@ -215,7 +215,7 @@ def start(update: Update, context: CallbackContext):
             text = (
                 f"Hello {mention_html(user.id, user.first_name)}, I'm {bot.first_name}\n\n"
                 f"┏━━━━━━━━━━━━━━━━━━━\n"
-                f"┣[• Developer : @cl_me_logesh"
+                f"┣[• Developer : @AANDAVAR8064"
                 f"┣[• Owner : @{OWNER_USERNAME}  \n"
                 f"┣[• Uptime : {uptime} \n"
                 f"┣[• Core : {psutil.cpu_percent()}%\n"
@@ -267,11 +267,11 @@ def Logi_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/Logi_channel"),
-                     InlineKeyboardButton(text="News", url="t.me/Logi_channel"),
+                     InlineKeyboardButton(text="Support", url="t.me/crazy_chatzz"),
+                     InlineKeyboardButton(text="News", url="t.me/crazy_chatzz"),
                    ],
                    [
-                    InlineKeyboardButton(text="Back", callback_data="Logi_back")
+                    InlineKeyboardButton(text="Back", callback_data="AANDAVAR_back")
                    ]
                 ]
             ),
